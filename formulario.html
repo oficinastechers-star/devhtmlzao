@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome">
+        <button type="submit">Enviar</button>
+        <input type="submit" value="Enviar">
+        <select>
+            <option>VIP</option>
+            <option>Convencional</option>
+        </select>
+        <textarea rows="4">
+         <input type="checkbox" name="tamanho" value="P" checked>
+                  <input type="checkbox" name="tamanho" value="M" disabled>
+
+         <input Type="radio" name="tamanho" value="P"><br>
+         <input Type="radio" name="tamanho" value="M">
+
+        </textarea>
+        <!--Fieldset e Legend-->
+        <fieldset width="50%">
+            <legend>Dados Pessoais</legend>
+
+            <label>Nome</label>
+            <input type="text"><br><br>
+
+            <label>Email</label>
+            <input type="email">
+        </fieldset>
+        <label>Faculdade:</label>
+        <input list="faculdade">
+
+        <datalist id="faculdade">
+            <option value="medicina">
+                <option value="direito">
+
+        </datalist>
+    </form>
+    <!--comentario-->
+</body>
+</html>
